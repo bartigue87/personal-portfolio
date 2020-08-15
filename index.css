@@ -361,7 +361,7 @@ body:not(.user-is-tabbing) a:focus {
   color: #bc002d;
 }
 
-.artigue {
+.web-developer {
   color: #bc002d;
   font-weight: bold;
 }
@@ -405,10 +405,14 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     justify-content: center;
   }
+  .web-developer {
+    margin-top: 10px;
+  }
   .header__text {
     display: flex;
     flex-direction: column;
     align-items: center;
+    top: 44%;
   }
 
   .header {
@@ -416,8 +420,7 @@ body:not(.user-is-tabbing) a:focus {
       url("./images/header.png");
     height: 100vh;
     width: 100%;
-    /* background-size: cover; */
-    background-position: center;
+    background-position: center center;
     background-attachment: fixed;
     font-size: 2.2rem;
   }

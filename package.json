@@ -1,0 +1,28 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bartigue87/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bartigue87/portfolio/issues"
+  },
+  "homepage": "https://github.com/bartigue87/portfolio#readme",
+  "devDependencies": {
+    "git-scripts": "^0.4.3",
+    "surge": "^0.21.6"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain example-githooks.surge.sh"
+    }
+  }
+}
