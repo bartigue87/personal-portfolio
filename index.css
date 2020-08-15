@@ -361,6 +361,11 @@ body:not(.user-is-tabbing) a:focus {
   color: #bc002d;
 }
 
+.artigue {
+  color: #bc002d;
+  font-weight: bold;
+}
+
 .nav__link:hover::after {
   right: 0;
   height: 2px;
@@ -384,7 +389,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header__text {
   position: absolute;
-  top: 50%;
+  top: 37%;
   transform: translateY(-50%);
 }
 
