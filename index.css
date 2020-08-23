@@ -566,7 +566,11 @@ body:not(.user-is-tabbing) a:focus {
 .footer {
   text-align: center;
   padding: 6rem 0 3rem;
-  background-color: #bc002d;
+  background: linear-gradient(
+    90deg,
+    rgba(188, 0, 45, 1) 50%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }
 
 .footer__social-links {
